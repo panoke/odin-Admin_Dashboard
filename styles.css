@@ -6,15 +6,16 @@
 
 * {
   box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
 }
+
 a {
     text-decoration: none;
     color: inherit
 }
 
 body {
-    padding: 0px;
-    margin: 0px;
     display: grid;
     grid-template-columns: 2fr 15fr;
     grid-template-rows: 2fr 15fr;
@@ -30,8 +31,8 @@ body {
 }
 
 .sidebar-links svg {
-    width: 1.3rem;
-    height: 1.3rem;
+    width: 2rem;
+    height: 2rem;
     vertical-align: middle;
     padding-right: 0.5rem;
 }
@@ -62,15 +63,6 @@ aside {
     gap: 2rem;
     color: var(--sidebar-color);
     /* width: 14rem; */
-}
-
-main {
-    grid-area: 2 / 2 / 3 / 3;
-    background: linear-gradient(
-        to top,
-        var(--background-color) 98%,
-        lightgrey
-    );
 }
 
 header {
@@ -190,8 +182,14 @@ header {
 }
 
 main {
+    grid-area: 2 / 2 / 3 / 3;
+    background: linear-gradient(
+        to top,
+        var(--background-color) 98%,
+        lightgrey
+    );
     display: grid;
-    grid-template-rows: 1fr 4fr 1fr 4fr;
+    grid-template-rows: max-content 1fr max-content 1fr;
     grid-template-columns: 4fr 1fr;
     padding: 0px 15px;
     background-color: var(--background-color);
@@ -218,19 +216,13 @@ main > div {
 
 .main-titles {
     margin-top: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 #projects {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-area: 2 / 1 / 5 / 2;
-}
-
-
-#announcements {
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
 }
 
 #trending {
@@ -246,7 +238,6 @@ main > div {
     grid-template-columns: min-content max-content;
     grid-template-rows: 1.2rem 1.2rem;
     column-gap: 15px;
-
 }
 
 .trending-card > a {
@@ -260,4 +251,26 @@ main > div {
 
 .trending-description {
     color: gray;
+}
+
+#announcements {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    padding: 15px;
+}
+
+.announcement {
+    padding: 15px;
+    border-bottom: 1px solid lightgray;
+}
+
+.announcement:last-child {
+    border-bottom: none;
+}
+
+.announcement > p {
+    color: gray;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-height: 3rem;
 }
