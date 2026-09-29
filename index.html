@@ -10,7 +10,40 @@
     <title>TOP - Admin Dashboard</title>
 </head>
 <body>
-    <header>header</header>
+    <header>
+        <div id="header-searchbar">
+            <form action="" method="get">
+                <button type="submit" class="header-button-icons">                            
+                    <svg>
+                        <use href="images/ui/text-search-variant.svg">
+                    </svg>
+                </button>                
+                <label for="search-input" hidden>Search Portal</label>
+                <input id="search-input" type="search" name="search" placeholder="Search...">
+            </form>
+        </div>
+        <div id="header-profile-links">
+            <a href="alerts" class="header-button-icons">
+                <svg>
+                    <use href="images/ui/bell-ring-outline.svg">
+                </svg>
+            </a>
+            <a href="profile">
+                <img class="profile-pictures" src="images/profile/user.png" alt="profile picture">
+            </a>
+            <p>Morgan Oakley</p>
+        </div>
+        <div id="header-user-welcome">
+            <img id="user-picture" src="images/profile/user.png" alt="profile picture">
+            <p>Hi there,</p>
+            <h2>Morgan Oakley (@morgan)</h2>
+        </div>
+        <div id="header-buttons">
+            <button type="button" class="standard-buttons">New</button>
+            <button type="button" class="standard-buttons">Upload</button>
+            <button type="button" class="standard-buttons">Share</button>
+        </div>
+    </header>
     <aside>
         <div class="logoband">
             <h2>
