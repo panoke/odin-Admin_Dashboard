@@ -188,3 +188,76 @@ header {
     margin: 0;
     padding: 0;    
 }
+
+main {
+    display: grid;
+    grid-template-rows: 1fr 4fr 1fr 4fr;
+    grid-template-columns: 4fr 1fr;
+    padding: 0px 15px;
+    background-color: var(--background-color);
+    column-gap: 2rem;
+}
+
+main > div {
+    border-radius: 15px;
+    background-color: white;
+    margin-bottom: 2rem;
+}
+
+#title-yourprojects {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+#title-announcements {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+#title-trending {
+    grid-area: 3 / 2 / 4 / 3;
+}
+
+.main-titles {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+#projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-area: 2 / 1 / 5 / 2;
+}
+
+
+#announcements {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+#trending {
+    display: grid;
+    grid-template-rows:  1fr 1fr 1fr 1fr;
+    grid-area: 4 / 2 / 5 / 3;
+    padding: 30px 0px;
+    justify-content: center;
+}
+
+.trending-card {
+    display: grid;
+    grid-template-columns: min-content max-content;
+    grid-template-rows: 1.2rem 1.2rem;
+    column-gap: 15px;
+
+}
+
+.trending-card > a {
+    grid-area: 1 / 1 / 3 / 2;
+    justify-self: end;
+}
+
+.trending-card > p {
+    margin: 0px;
+}
+
+.trending-description {
+    color: gray;
+}
