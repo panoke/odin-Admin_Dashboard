@@ -1,6 +1,6 @@
 :root {
     --sidebar-color: yellow;
-    --standout-color: steelblue;
+    --standout-color: purple;
 }
 
 body {
@@ -8,10 +8,11 @@ body {
     margin: 0px;
     display: grid;
     grid-template-columns: 2fr 15fr;
-    grid-template-rows: 1fr 10fr;
+    grid-template-rows: 2fr 15fr;
     height: 100vh;
     font-family: "Noto Sans", system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
+
 /* 
 * {
      border: 1px dotted gray;
@@ -22,21 +23,21 @@ a {
     color: inherit
 }
 
-.side-links ul
+.sidebar-links ul
 {
     list-style-type: none;
     margin: 0px;
     padding: 0px;
 }
 
-.side-links svg {
+.sidebar-links svg {
     width: 1.3rem;
     height: 1.3rem;
     vertical-align: middle;
     padding-right: 0.5rem;
 }
 
-.side-links li {
+.sidebar-links li {
     padding-bottom: 1rem;
     padding-left: 2rem;    
     font-weight: bold;
@@ -70,4 +71,9 @@ header {
 
 main {
     grid-area: 2 / 2 / 3 / 3;
+    background: linear-gradient(
+        to top,
+        whitesmoke 98%,
+        lightgrey
+    );
 }
