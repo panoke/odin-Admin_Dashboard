@@ -14,3 +14,7 @@ License: https://pictogrammers.com/docs/general/license/<br>
 [Profile picture icons created by Magnific - Flaticon](https://www.flaticon.com/free-icons/profile-picture)<br>
 [Man icons created by Roundicons - Flaticon](https://www.flaticon.com/free-icons/man)<br>
 [Profile pic icons created by Creative Squad - Flaticon](https://www.flaticon.com/free-icons/profile-pic)<br>
+
+### Font
+[Noto Sans](https://fonts.google.com/noto/specimen/Noto+Sans)
+
