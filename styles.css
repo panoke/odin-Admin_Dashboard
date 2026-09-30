@@ -272,5 +272,17 @@ main > div {
     color: gray;
     text-overflow: ellipsis;
     overflow: hidden;
-    max-height: 3rem;
+    max-height: 4em;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
+
+}
+
+@supports (line-clamp: 3) {
+  .announcement > p {
+    display: block;
+    line-clamp: 3;
+  }
 }
