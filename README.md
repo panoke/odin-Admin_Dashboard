@@ -5,12 +5,12 @@ For The Odin Project: Intermediate HTML and CSS
 
 ### UI Icons
 Material Design Icons:
-v7.4.47
-https://pictogrammers.com/library/mdi/
-License: https://pictogrammers.com/docs/general/license/
+v7.4.47<br>
+https://pictogrammers.com/library/mdi/<br>
+License: https://pictogrammers.com/docs/general/license/<br>
 
-### Account Profile Icons: 
-[Girl icons created by Magnific - Flaticon](https://www.flaticon.com/free-icons/girl)
-[Profile picture icons created by Magnific - Flaticon](https://www.flaticon.com/free-icons/profile-picture)
-[Man icons created by Roundicons - Flaticon](https://www.flaticon.com/free-icons/man)
-[Profile pic icons created by Creative Squad - Flaticon](https://www.flaticon.com/free-icons/profile-pic)
+### Account Profile Icons:<br>
+[Girl icons created by Magnific - Flaticon](https://www.flaticon.com/free-icons/girl)<br>
+[Profile picture icons created by Magnific - Flaticon](https://www.flaticon.com/free-icons/profile-picture)<br>
+[Man icons created by Roundicons - Flaticon](https://www.flaticon.com/free-icons/man)<br>
+[Profile pic icons created by Creative Squad - Flaticon](https://www.flaticon.com/free-icons/profile-pic)<br>
