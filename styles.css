@@ -63,7 +63,6 @@ aside {
     grid-template-rows: 1fr 2fr 6fr;
     gap: 2rem;
     color: var(--sidebar-color);
-    /* width: 14rem; */
 }
 
 header {
